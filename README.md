@@ -47,7 +47,11 @@ My goal is to build applications that are not just functional, but also robust a
 ### ✍️ My Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
-<!-- This section will be automatically updated with my latest Medium articles -->
+- [Mastering Flutter Live Tracking without those costly Google Subscription APIs!](https://medium.com/@abied.abiad/master-flutter-live-tracking-without-subscription-apis-a-guide-to-using-your-own-live-location-a02289c4b0b8?source=rss-bbc5a68595bd------2)
+- [Crafting Resilient Mobile Apps: Domain-Driven Design to Build Robust Apps](https://medium.com/@abied.abiad/beyond-ui-how-domain-driven-design-empowers-mobile-developers-to-build-robust-apps-0b5684a262bc?source=rss-bbc5a68595bd------2)
+- [Seamless User Onboarding: How to Showcase Multiple Widgets Simultaneously](https://medium.com/@abied.abiad/seamless-user-onboarding-how-to-showcase-multiple-widgets-simultaneously-a9167be04d71?source=rss-bbc5a68595bd------2)
+- [The Repository Pattern: A Necessary Abstraction or Over-Engineering?](https://medium.com/@abied.abiad/the-repository-pattern-your-gateway-to-clean-data-c72235f34916?source=rss-bbc5a68595bd------2)
+- [Clean Architecture 101: Clean Architecture in Teams &lpar;Part 7&rpar;](https://medium.com/@abied.abiad/clean-architecture-101-clean-architecture-in-teams-part-7-1c1d3e10fc35?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ---
