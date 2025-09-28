@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/abdelrahman-abied/abdelrahman-abied/blob/main/output/banner.gif" width="250" height="250" alt="Welcome Banner for Abdulrahman Mohamed's Profile">
+  <img src="https://github.com/abdelrahman-abied/abdelrahman-abied/blob/main/output/banner.gif" width="1050" height="550" alt="Welcome Banner for Abdulrahman Mohamed's Profile">
 </p>
 
 # Abdulrahman Mohamed | Lead Mobile Engineer & Architect
