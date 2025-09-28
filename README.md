@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="URL_TO_YOUR_BANNER_IMAGE" alt="Welcome Banner for Abdulrahman Mohamed's Profile">
+  <img src="https://github.com/abdelrahman-abied/abdelrahman-abied/blob/main/output/banner.png" alt="Welcome Banner for Abdulrahman Mohamed's Profile">
 </p>
 
 # Abdulrahman Mohamed | Lead Mobile Engineer & Architect
