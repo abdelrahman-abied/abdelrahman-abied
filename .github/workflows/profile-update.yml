@@ -5,11 +5,11 @@ on:
     # Runs every 12 hours
     - cron: '0 */12 * * *'
   workflow_dispatch:
-  
-# Grant the GITHUB_TOKEN permissions to write to the repository
+
+# This is the crucial fix: Grant write permissions to the workflow
 permissions:
   contents: write
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,28 +17,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Generates the snake contribution graph
+      # This step can remain if you use it for the snake animation
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # This line is crucial: it tells the action where to save the file
           outputs: |
             output/github-contribution-grid-snake.svg
             output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Fetches your latest Medium articles
+      # Fetches your latest Medium articles AND commits the changes
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
+          # You can keep your custom commit message if you like
+          commit_message: "chore: update blog posts"
+          # The token is passed automatically, but the permissions block above is what activates it
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
           feed_list: "https://medium.com/feed/@abied.abiad"
           max_post_count: 5
           readme_path: "README.md"
           comment_tag_name: "BLOG-POST-LIST"
 
-      # Commits the generated files back to your repository
-      - name: Commit and Push
+      # You DO NOT need a separate commit step for the blog posts.
+      # The step below is only needed if you want to commit the snake animation.
+      - name: Commit and Push Snake Animation
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "chore: update profile assets" || exit 0
+          git add output/
+          git commit -m "chore: update snake animation" || exit 0
           git push
