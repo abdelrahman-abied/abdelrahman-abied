@@ -5,7 +5,11 @@ on:
     # Runs every 12 hours
     - cron: '0 */12 * * *'
   workflow_dispatch:
-
+  
+# Grant the GITHUB_TOKEN permissions to write to the repository
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
