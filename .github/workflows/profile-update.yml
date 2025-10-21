@@ -27,7 +27,7 @@ jobs:
         with:
           feed_list: "https://medium.com/feed/@abied.abiad"
           max_post_count: 5
-          readme_file: "README.md"
+          readme_path: "README.md"
           comment_tag_name: "BLOG-POST-LIST"
 
       # Commits the generated files back to your repository
