@@ -28,6 +28,16 @@ I am the creator and maintainer of **showcase_tutorial**, a Flutter package desi
     <img src="https://img.shields.io/pub/v/showcase_tutorial.svg?style=for-the-badge&logo=flutter&label=showcase_tutorial" alt="showcase_tutorial pub.dev badge">
   </a>
 </p>
+<p>
+  <a href="https://pub.dev/packages/photo_gallery_plus">
+    <img src="https://img.shields.io/pub/v/photo_gallery_plus.svg?style=for-the-badge&logo=flutter&label=photo_gallery_plus" alt="photo_gallery_plus pub.dev badge">
+  </a>
+</p>
+<p>
+  <a href="https://pub.dev/packages/gallery_picker_plus">
+    <img src="https://img.shields.io/pub/v/gallery_picker_plus.svg?style=for-the-badge&logo=flutter&label=gallery_picker_plus" alt="gallery_picker_plus pub.dev badge">
+  </a>
+</p>
 
 The package allows you to **highlight your widgets step-by-step**, making user onboarding and feature discovery simple and elegant. Check it out on [pub.dev](https://pub.dev/packages/showcase_tutorial)!
 
