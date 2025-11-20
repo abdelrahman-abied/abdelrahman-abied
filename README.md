@@ -54,6 +54,16 @@ My goal is to build applications that are not just functional, but also robust a
 
 ---
 
+### 🚀 Creator of MVN Architecture
+
+I am the creator of the **MVN (Model-View-Notifier) Architecture**, a clean and scalable pattern designed specifically for Flutter applications that leverage the power of Riverpod for state management.
+
+MVN is built on the core principles of separation of concerns and testability, providing a clear and structured way to organize code. It simplifies state management and decouples business logic from the UI, making applications easier to maintain and scale.
+
+For a complete guide, documentation, and implementation details, please check out the **[official MVN Architecture reference](https://abdelrahman-abied.github.io/mvn-architecture-pattern/)**.
+
+---
+
 ### ✍️ My Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
@@ -76,6 +86,7 @@ My goal is to build applications that are not just functional, but also robust a
 ![KMP](https://img.shields.io/badge/KMP-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
 
 #### Architecture & State Management
+- **Architectures:** [MVN](https://abdelrahman-abied.github.io/mvn-architecture-pattern/),
 - **Architectures:** Clean Architecture, MVVM, MVI, MVP, VIPER
 - **State Management:** Riverpod, Provider, BLoC, Cubit, GetX, ViewModel
 
