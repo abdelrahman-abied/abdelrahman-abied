@@ -6,43 +6,115 @@ on:
     - cron: '0 */12 * * *'
   workflow_dispatch:
 
-# This is the crucial fix: Grant write permissions to the workflow
+# Grant the workflow write access to repository contents so actions using GITHUB_TOKEN can push
 permissions:
   contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Update Profile Assets
+    name: Generate Assets
+    outputs:
+      artifact-name: output
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
-      # This step can remain if you use it for the snake animation
-      - uses: Platane/snk@v3
+      # Generate the snake animation (optional)
+      - name: Generate snake animation
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             output/github-contribution-grid-snake.svg
-            output/github-contribution-grid-snake-dark.svg?palette=github-dark
+            output/github-contribution-grid-snake-dark.svg
 
-      # Fetches your latest Medium articles AND commits the changes
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      # Fetches your latest Medium articles AND commits the changes (action will use GITHUB_TOKEN)
+      - name: Update blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          # You can keep your custom commit message if you like
           commit_message: "chore: update blog posts"
-          # The token is passed automatically, but the permissions block above is what activates it
           gh_token: ${{ secrets.GITHUB_TOKEN }}
           feed_list: "https://medium.com/feed/@abied.abiad"
           max_post_count: 5
           readme_path: "README.md"
           comment_tag_name: "BLOG-POST-LIST"
 
-      # You DO NOT need a separate commit step for the blog posts.
-      # The step below is only needed if you want to commit the snake animation.
-      - name: Commit and Push Snake Animation
+      # Upload generated output/ as an artifact so other jobs can compare/commit it
+      - name: Upload generated output
+        uses: actions/upload-artifact@v4
+        with:
+          name: output
+          path: output
+
+  detect_changes:
+    needs: build
+    runs-on: ubuntu-latest
+    outputs:
+      files_changed: ${{ steps.check.outputs.files_changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download generated output artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: output
+          path: output_artifact
+      - name: Copy artifact into repository working directory
+        run: |
+          mkdir -p output
+          cp -r output_artifact/* output/ || true
+      - name: Detect if output/ differs from repository
+        id: check
+        run: |
+          # Show status for debugging (optional)
+          git status --porcelain --untracked-files=all output || true
+          # If there are any changes (modified/untracked) under output/, mark changed=true
+          if [[ -n "$(git status --porcelain --untracked-files=all output)" ]]; then
+            echo "files_changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "files_changed=false" >> $GITHUB_OUTPUT
+          fi
+
+  commit_snake:
+    needs: detect_changes
+    # Only run this job when detect_changes found differences
+    if: needs.detect_changes.outputs.files_changed == 'true'
+    runs-on: ubuntu-latest
+    name: Commit and Push Snake Animation
+    steps:
+      - name: Checkout (for push)
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Download generated output artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: output
+          path: output_artifact
+
+      - name: Copy artifact into working directory
+        run: |
+          mkdir -p output
+          cp -r output_artifact/* output/ || true
+          ls -la output || true
+
+      - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
-          git commit -m "chore: update snake animation" || exit 0
+          # Exit without error if there are no staged changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update snake animation"
           git push
