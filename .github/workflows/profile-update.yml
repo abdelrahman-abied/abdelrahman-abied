@@ -2,119 +2,43 @@ name: Generate Profile Assets
 
 on:
   schedule:
-    # Runs every 12 hours
-    - cron: '0 */12 * * *'
+    - cron: '0 0 * * *'  # Once daily is plenty — Medium RSS lags anyway
   workflow_dispatch:
 
-# Grant the workflow write access to repository contents so actions using GITHUB_TOKEN can push
 permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-    name: Generate Assets
-    outputs:
-      artifact-name: output
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      # Generate the snake animation (optional)
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             output/github-contribution-grid-snake.svg
-            output/github-contribution-grid-snake-dark.svg
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Fetches your latest Medium articles AND commits the changes (action will use GITHUB_TOKEN)
-      - name: Update blog posts
+      - name: Update blog posts in README
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          commit_message: "chore: update blog posts"
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
           feed_list: "https://medium.com/feed/@abied.abiad"
           max_post_count: 5
-          readme_path: "README.md"
+          commit_message: "chore: update blog posts"
           comment_tag_name: "BLOG-POST-LIST"
 
-      # Upload generated output/ as an artifact so other jobs can compare/commit it
-      - name: Upload generated output
-        uses: actions/upload-artifact@v4
-        with:
-          name: output
-          path: output
-
-  detect_changes:
-    needs: build
-    runs-on: ubuntu-latest
-    outputs:
-      files_changed: ${{ steps.check.outputs.files_changed }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Download generated output artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: output
-          path: output_artifact
-      - name: Copy artifact into repository working directory
+      - name: Commit snake animation
         run: |
-          mkdir -p output
-          cp -r output_artifact/* output/ || true
-      - name: Detect if output/ differs from repository
-        id: check
-        run: |
-          # Show status for debugging (optional)
-          git status --porcelain --untracked-files=all output || true
-          # If there are any changes (modified/untracked) under output/, mark changed=true
-          if [[ -n "$(git status --porcelain --untracked-files=all output)" ]]; then
-            echo "files_changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "files_changed=false" >> $GITHUB_OUTPUT
-          fi
-
-  commit_snake:
-    needs: detect_changes
-    # Only run this job when detect_changes found differences
-    if: needs.detect_changes.outputs.files_changed == 'true'
-    runs-on: ubuntu-latest
-    name: Commit and Push Snake Animation
-    steps:
-      - name: Checkout (for push)
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
-
-      - name: Download generated output artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: output
-          path: output_artifact
-
-      - name: Copy artifact into working directory
-        run: |
-          mkdir -p output
-          cp -r output_artifact/* output/ || true
-          ls -la output || true
-
-      - name: Commit and Push changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
-          # Exit without error if there are no staged changes
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No snake changes"
             exit 0
           fi
           git commit -m "chore: update snake animation"
+          git pull --rebase
           git push
