@@ -2,7 +2,7 @@ name: Generate Profile Assets
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Once daily is plenty — Medium RSS lags anyway
+    - cron: '0 0 * * *'  # Once daily — Medium RSS doesn't update fast enough to justify more
   workflow_dispatch:
 
 permissions:
@@ -11,8 +11,12 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    name: Generate Assets
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate snake animation
         uses: Platane/snk@v3
@@ -29,6 +33,8 @@ jobs:
           max_post_count: 5
           commit_message: "chore: update blog posts"
           comment_tag_name: "BLOG-POST-LIST"
+          readme_path: "README.md"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit snake animation
         run: |
@@ -36,9 +42,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
           if git diff --cached --quiet; then
-            echo "No snake changes"
+            echo "No snake changes to commit"
             exit 0
           fi
           git commit -m "chore: update snake animation"
-          git pull --rebase
+          git pull --rebase origin main
           git push
