@@ -147,10 +147,7 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=abdelrahman-abied&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="GitHub Stats">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdelrahman-abied&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages">
-</p>
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdelrahman-abied&theme=tokyonight&hide_border=true" alt="GitHub Streak">
