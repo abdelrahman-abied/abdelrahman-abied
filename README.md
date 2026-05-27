@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
-- [Mastering Flutter Live Tracking without those costly Google Subscription APIs!](https://medium.com/@abied.abiad/master-flutter-live-tracking-without-subscription-apis-a-guide-to-using-your-own-live-location-a02289c4b0b8)
-- [Crafting Resilient Mobile Apps: Domain-Driven Design to Build Robust Apps](https://medium.com/@abied.abiad/beyond-ui-how-domain-driven-design-empowers-mobile-developers-to-build-robust-apps-0b5684a262bc)
-- [Seamless User Onboarding: How to Showcase Multiple Widgets Simultaneously](https://medium.com/@abied.abiad/seamless-user-onboarding-how-to-showcase-multiple-widgets-simultaneously-a9167be04d71)
-- [The Repository Pattern: A Necessary Abstraction or Over-Engineering?](https://medium.com/@abied.abiad/the-repository-pattern-your-gateway-to-clean-data-c72235f34916)
-- [Clean Architecture 101: Clean Architecture in Teams (Part 7)](https://medium.com/@abied.abiad/clean-architecture-101-clean-architecture-in-teams-part-7-1c1d3e10fc35)
+- [Server-Driven UI Architecture: Approaches, Trade-offs and the Honest Costs.](https://medium.com/@abied.abiad/server-driven-ui-architecture-approaches-trade-offs-and-the-honest-costs-b98c861d667b?source=rss-bbc5a68595bd------2)
+- [Server-Driven UI Architecture: Approaches, Trade-offs and the Honest Costs -Part 1: Foundations &…](https://medium.com/@abied.abiad/server-driven-ui-architecture-approaches-trade-offs-and-the-honest-costs-3f61e599fb9f?source=rss-bbc5a68595bd------2)
+- [Stop Building Offline-First Apps, Start Building Offline-First Features.](https://medium.com/@abied.abiad/stop-building-offline-first-apps-start-building-offline-first-features-3afddd52ce5e?source=rss-bbc5a68595bd------2)
+- [Code is a Liability: Why the Best Seniors Write Less Software](https://medium.com/@abied.abiad/code-is-a-liability-why-the-best-seniors-write-less-software-82063fe8e9da?source=rss-bbc5a68595bd------2)
+- [Data-First Design: Why the Database is the Most Expensive Decision You’ll Ever Make](https://medium.com/@abied.abiad/data-first-design-why-the-database-is-the-most-expensive-decision-youll-ever-make-f5b8e17f3103?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
