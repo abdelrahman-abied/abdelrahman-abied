@@ -2,7 +2,7 @@ name: Generate Profile Assets
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Once daily — Medium RSS doesn't update fast enough to justify more
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,6 +18,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Update blog posts in README
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://medium.com/feed/@abied.abiad"
+          max_post_count: 5
+          comment_tag_name: "BLOG-POST-LIST"
+          readme_path: "README.md"
+          disable_html_encoding: true
+          # No gh_token → action skips its internal commit/push (which was failing)
+
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
@@ -26,25 +36,14 @@ jobs:
             output/github-contribution-grid-snake.svg
             output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Update blog posts in README
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://medium.com/feed/@abied.abiad"
-          max_post_count: 5
-          commit_message: "chore: update blog posts"
-          comment_tag_name: "BLOG-POST-LIST"
-          readme_path: "README.md"
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit snake animation
+      - name: Commit and push all changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/
+          git add README.md output/
           if git diff --cached --quiet; then
-            echo "No snake changes to commit"
+            echo "No changes to commit"
             exit 0
           fi
-          git commit -m "chore: update snake animation"
-          git pull --rebase origin main
+          git commit -m "chore: update profile assets (blog posts + snake)"
           git push
