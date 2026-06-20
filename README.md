@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [BFF vs SDUI: Before You Build an SDUI Engine, Make Sure You Don’t Just Need a BFF](https://medium.com/@abied.abiad/bff-vs-sdui-before-you-build-an-sdui-engine-make-sure-you-dont-just-need-a-bff-31503b1e4ced?source=rss-bbc5a68595bd------2)
 - [Server-Driven UI Architecture: Approaches, Trade-offs and the Honest Costs Part 3: Costs…](https://medium.com/@abied.abiad/server-driven-ui-architecture-approaches-trade-offs-and-the-honest-costs-part-3-costs-d1ece803c785?source=rss-bbc5a68595bd------2)
 - [Server-Driven UI Architecture: Approaches, Trade-offs and the Honest Costs.](https://medium.com/@abied.abiad/server-driven-ui-architecture-approaches-trade-offs-and-the-honest-costs-b98c861d667b?source=rss-bbc5a68595bd------2)
 - [Server-Driven UI Architecture: Approaches, Trade-offs and the Honest Costs -Part 1: Foundations &…](https://medium.com/@abied.abiad/server-driven-ui-architecture-approaches-trade-offs-and-the-honest-costs-3f61e599fb9f?source=rss-bbc5a68595bd------2)
 - [Stop Building Offline-First Apps, Start Building Offline-First Features.](https://medium.com/@abied.abiad/stop-building-offline-first-apps-start-building-offline-first-features-3afddd52ce5e?source=rss-bbc5a68595bd------2)
-- [Code is a Liability: Why the Best Seniors Write Less Software](https://medium.com/@abied.abiad/code-is-a-liability-why-the-best-seniors-write-less-software-82063fe8e9da?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
