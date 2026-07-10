@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Modularization vs Microservices in Mobile: Why and When to Use Each](https://medium.com/@abied.abiad/modularization-vs-microservices-in-mobile-why-and-when-to-use-each-aa403c58cf9a?source=rss-bbc5a68595bd------2)
 - [Offline-First Sync: How to Build a Local Database That Never Loses Data](https://medium.com/@abied.abiad/offline-first-sync-how-to-build-a-local-database-that-never-loses-data-72d02d0b03c3?source=rss-bbc5a68595bd------2)
 - [How to Schedule Many Local Notifications in Flutter and Beat the iOS 64-Notification Limit](https://medium.com/@abied.abiad/how-to-schedule-many-local-notifications-in-flutter-and-beat-the-ios-64-notification-limit-6e759fc20e72?source=rss-bbc5a68595bd------2)
 - [The Pragmatic Architect’s Guide: Core Architectural Documents Every Architect Must Know](https://medium.com/@abied.abiad/the-pragmatic-architects-guide-core-architectural-documents-every-architect-must-know-39f5a8450b66?source=rss-bbc5a68595bd------2)
 - [BFF vs SDUI: Before You Build an SDUI Engine, Make Sure You Don’t Just Need a BFF](https://medium.com/@abied.abiad/bff-vs-sdui-before-you-build-an-sdui-engine-make-sure-you-dont-just-need-a-bff-31503b1e4ced?source=rss-bbc5a68595bd------2)
-- [Server-Driven UI Architecture: Approaches, Trade-offs and the Honest Costs Part 3: Costs…](https://medium.com/@abied.abiad/server-driven-ui-architecture-approaches-trade-offs-and-the-honest-costs-part-3-costs-d1ece803c785?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
