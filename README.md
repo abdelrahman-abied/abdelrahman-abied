@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Flutter Scheduling Notifications at Times That Change Every Day: Part 1 -The Limit](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-1-the-limit-cad98dbe21c5?source=rss-bbc5a68595bd------2)
 - [The Architecture Communication Blueprint](https://medium.com/@abied.abiad/the-architecture-communication-blueprint-2cb6113fa1b6?source=rss-bbc5a68595bd------2)
 - [Flutter Notification: Scheduling Notifications at Times That Change Every Day](https://medium.com/@abied.abiad/flutter-notification-scheduling-notifications-at-times-that-change-every-day-a8d637237a93?source=rss-bbc5a68595bd------2)
 - [Modularization vs Microservices in Mobile: Why and When to Use Each](https://medium.com/@abied.abiad/modularization-vs-microservices-in-mobile-why-and-when-to-use-each-aa403c58cf9a?source=rss-bbc5a68595bd------2)
 - [Offline-First Sync: How to Build a Local Database That Never Loses Data](https://medium.com/@abied.abiad/offline-first-sync-how-to-build-a-local-database-that-never-loses-data-72d02d0b03c3?source=rss-bbc5a68595bd------2)
-- [How to Schedule Many Local Notifications in Flutter and Beat the iOS 64-Notification Limit](https://medium.com/@abied.abiad/how-to-schedule-many-local-notifications-in-flutter-and-beat-the-ios-64-notification-limit-6e759fc20e72?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
