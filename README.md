@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Flutter Scheduling Notifications at Times That Change Every Day: Part 5 -Android](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-5-android-e880534e4618?source=rss-bbc5a68595bd------2)
+- [Flutter Scheduling Notifications at Times That Change Every Day: Part 4 -The Schedule](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-4-the-schedule-230bc1143ad3?source=rss-bbc5a68595bd------2)
 - [Flutter Scheduling Notifications at Times That Change Every Day: Part 3 -The Times](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-3-the-times-38bb8971539b?source=rss-bbc5a68595bd------2)
 - [Flutter Scheduling Notifications at Times That Change Every Day: Part 2 -The Budget](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-2-the-budget-d3a2eafa1f68?source=rss-bbc5a68595bd------2)
 - [Flutter Scheduling Notifications at Times That Change Every Day: Part 1 -The Limit](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-1-the-limit-cad98dbe21c5?source=rss-bbc5a68595bd------2)
-- [The Architecture Communication Blueprint](https://medium.com/@abied.abiad/the-architecture-communication-blueprint-2cb6113fa1b6?source=rss-bbc5a68595bd------2)
-- [Flutter Notification: Scheduling Notifications at Times That Change Every Day](https://medium.com/@abied.abiad/flutter-notification-scheduling-notifications-at-times-that-change-every-day-a8d637237a93?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
