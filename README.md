@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Flutter Certificate Pinning and Payload Encryption: Why HTTPS Is the Floor, Not the Ceiling](https://medium.com/@abied.abiad/flutter-certificate-pinning-and-payload-encryption-why-https-is-the-floor-not-the-ceiling-9c42582f826e?source=rss-bbc5a68595bd------2)
+- [Flutter Reverse Engineering: Your Obfuscated App Gives Up Its Secrets in 90 Seconds](https://medium.com/@abied.abiad/flutter-reverse-engineering-your-obfuscated-app-gives-up-its-secrets-in-90-seconds-ae37820ce167?source=rss-bbc5a68595bd------2)
 - [Flutter Notification: Android Alarms Don’t Fire When the App Is Closed](https://medium.com/@abied.abiad/flutter-notification-android-alarms-dont-fire-when-the-app-is-closed-58df6b9a905d?source=rss-bbc5a68595bd------2)
 - [Flutter Scheduling Notifications at Times That Change Every Day: Part 6 -Apple](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-6-apple-cdd6ef47dd28?source=rss-bbc5a68595bd------2)
 - [Flutter Scheduling Notifications at Times That Change Every Day: Part 5 -Android](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-5-android-e880534e4618?source=rss-bbc5a68595bd------2)
-- [Flutter Scheduling Notifications at Times That Change Every Day: Part 4 -The Schedule](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-4-the-schedule-230bc1143ad3?source=rss-bbc5a68595bd------2)
-- [Flutter Scheduling Notifications at Times That Change Every Day: Part 3 -The Times](https://medium.com/@abied.abiad/flutter-scheduling-notifications-at-times-that-change-every-day-part-3-the-times-38bb8971539b?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
