@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Flutter CI Security Gates: Supply Chain, Performance Budget and Release Integrity](https://medium.com/@abied.abiad/flutter-ci-security-gates-supply-chain-performance-budget-and-release-integrity-9e15d49b014d?source=rss-bbc5a68595bd------2)
+- [Flutter Isolates and FFI: compute() Is Not Free, and Your Jank Fix Is Copying 20 MB Twice](https://medium.com/@abied.abiad/flutter-isolates-and-ffi-compute-is-not-free-and-your-jank-fix-is-copying-20-mb-twice-cee227046770?source=rss-bbc5a68595bd------2)
 - [Flutter Impeller Performance: What Actually Moves the Raster Thread Now That Skia Is Gone](https://medium.com/@abied.abiad/flutter-impeller-performance-what-actually-moves-the-raster-thread-now-that-skia-is-gone-4df5ec17ae7f?source=rss-bbc5a68595bd------2)
 - [Fixing Flutter Jank and Memory Leaks: Read the Render Pipeline Before You Guess](https://medium.com/@abied.abiad/fixing-flutter-jank-and-memory-leaks-read-the-render-pipeline-before-you-guess-cec73b12ab4c?source=rss-bbc5a68595bd------2)
 - [Flutter Certificate Pinning and Payload Encryption: Why HTTPS Is the Floor, Not the Ceiling](https://medium.com/@abied.abiad/flutter-certificate-pinning-and-payload-encryption-why-https-is-the-floor-not-the-ceiling-9c42582f826e?source=rss-bbc5a68595bd------2)
-- [Flutter Reverse Engineering: Your Obfuscated App Gives Up Its Secrets in 90 Seconds](https://medium.com/@abied.abiad/flutter-reverse-engineering-your-obfuscated-app-gives-up-its-secrets-in-90-seconds-ae37820ce167?source=rss-bbc5a68595bd------2)
-- [Flutter Notification: Android Alarms Don’t Fire When the App Is Closed](https://medium.com/@abied.abiad/flutter-notification-android-alarms-dont-fire-when-the-app-is-closed-58df6b9a905d?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
