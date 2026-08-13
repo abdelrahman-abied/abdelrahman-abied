@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [JIT vs AOT Compilation in Dart, Kotlin and Swift: Your Debug Build Is a Different Compiler](https://medium.com/@abied.abiad/jit-vs-aot-compilation-in-dart-kotlin-and-swift-your-debug-build-is-a-different-compiler-cb5f4311b54d?source=rss-bbc5a68595bd------2)
+- [Flutter Biometric Authentication with local_auth: The Gate That Is Not Really a Gate](https://medium.com/@abied.abiad/flutter-biometric-authentication-with-local-auth-the-gate-that-is-not-really-a-gate-ddca1c48fec4?source=rss-bbc5a68595bd------2)
 - [Flutter WebView and Deep Link Security: The Doors You Left Open](https://medium.com/@abied.abiad/flutter-webview-and-deep-link-security-the-doors-you-left-open-0523884b5eb0?source=rss-bbc5a68595bd------2)
 - [Flutter Secure Random, Logged Tokens and Unverified JWTs: The Quiet Leaks That Add Up](https://medium.com/@abied.abiad/flutter-secure-random-logged-tokens-and-unverified-jwts-the-quiet-leaks-that-add-up-8ca7b016b49e?source=rss-bbc5a68595bd------2)
 - [Flutter CI Security Gates: Supply Chain, Performance Budget and Release Integrity](https://medium.com/@abied.abiad/flutter-ci-security-gates-supply-chain-performance-budget-and-release-integrity-9e15d49b014d?source=rss-bbc5a68595bd------2)
-- [Flutter Isolates and FFI: compute() Is Not Free, and Your Jank Fix Is Copying 20 MB Twice](https://medium.com/@abied.abiad/flutter-isolates-and-ffi-compute-is-not-free-and-your-jank-fix-is-copying-20-mb-twice-cee227046770?source=rss-bbc5a68595bd------2)
-- [Flutter Impeller Performance: What Actually Moves the Raster Thread Now That Skia Is Gone](https://medium.com/@abied.abiad/flutter-impeller-performance-what-actually-moves-the-raster-thread-now-that-skia-is-gone-4df5ec17ae7f?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
