@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Mobile App Modularization at Scale: Adding More Modules Did Not Make Your Build Faster](https://medium.com/@abied.abiad/mobile-app-modularization-at-scale-adding-more-modules-did-not-make-your-build-faster-766e854b08ed?source=rss-bbc5a68595bd------2)
 - [Reverse Engineering Mobile Binaries with Ghidra and Frida: Reading the Machine Code You Shipped](https://medium.com/@abied.abiad/reverse-engineering-mobile-binaries-with-ghidra-and-frida-reading-the-machine-code-you-shipped-58e19154945f?source=rss-bbc5a68595bd------2)
 - [Stack vs Heap in Swift, Kotlin and Dart: Your Value Type Is Probably on the Heap](https://medium.com/@abied.abiad/stack-vs-heap-in-swift-kotlin-and-dart-your-value-type-is-probably-on-the-heap-acb401a926c3?source=rss-bbc5a68595bd------2)
 - [JIT vs AOT Compilation in Dart, Kotlin and Swift: Your Debug Build Is a Different Compiler](https://medium.com/@abied.abiad/jit-vs-aot-compilation-in-dart-kotlin-and-swift-your-debug-build-is-a-different-compiler-cb5f4311b54d?source=rss-bbc5a68595bd------2)
 - [Flutter Biometric Authentication with local_auth: The Gate That Is Not Really a Gate](https://medium.com/@abied.abiad/flutter-biometric-authentication-with-local-auth-the-gate-that-is-not-really-a-gate-ddca1c48fec4?source=rss-bbc5a68595bd------2)
-- [Flutter WebView and Deep Link Security: The Doors You Left Open](https://medium.com/@abied.abiad/flutter-webview-and-deep-link-security-the-doors-you-left-open-0523884b5eb0?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
