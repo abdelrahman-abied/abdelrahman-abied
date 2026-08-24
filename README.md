@@ -134,11 +134,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [How to Write a Mobile Technical Design Doc: It Is a Decision Record, Not Documentation](https://medium.com/@abied.abiad/how-to-write-a-mobile-technical-design-doc-it-is-a-decision-record-not-documentation-390791b4cfd9?source=rss-bbc5a68595bd------2)
 - [How to Slice User Stories for Mobile Teams: The Vertical Slice Is a Backend Idea](https://medium.com/@abied.abiad/how-to-slice-user-stories-for-mobile-teams-the-vertical-slice-is-a-backend-idea-4321e43741db?source=rss-bbc5a68595bd------2)
 - [How to Think Like a  Solution Architect: Your Code Ships to Machines You Will Never Touch…](https://medium.com/@abied.abiad/how-to-think-like-a-solution-architect-your-code-ships-to-machines-you-will-never-touch-7ba6976ec36d?source=rss-bbc5a68595bd------2)
 - [Mobile App Modularization at Scale: Adding More Modules Did Not Make Your Build Faster](https://medium.com/@abied.abiad/mobile-app-modularization-at-scale-adding-more-modules-did-not-make-your-build-faster-766e854b08ed?source=rss-bbc5a68595bd------2)
 - [Reverse Engineering Mobile Binaries with Ghidra and Frida: Reading the Machine Code You Shipped](https://medium.com/@abied.abiad/reverse-engineering-mobile-binaries-with-ghidra-and-frida-reading-the-machine-code-you-shipped-58e19154945f?source=rss-bbc5a68595bd------2)
-- [Stack vs Heap in Swift, Kotlin and Dart: Your Value Type Is Probably on the Heap](https://medium.com/@abied.abiad/stack-vs-heap-in-swift-kotlin-and-dart-your-value-type-is-probably-on-the-heap-acb401a926c3?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
