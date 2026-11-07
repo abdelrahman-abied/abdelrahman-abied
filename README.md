@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/abdelrahman-abied">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=02569B&center=true&vCenter=true&width=700&lines=Lead+Mobile+Engineer+%7C+9%2B+Years;Flutter+%E2%80%A2+Kotlin+%E2%80%A2+Swift+%E2%80%A2+KMP;Creator+of+MVN+Architecture;Open-Source+Maintainer+%26+Tech+Writer" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=02569B&center=true&vCenter=true&width=700&lines=Lead+Mobile+Engineer+%7C+10%2B+Years;Mobile+Solution+Architect;Flutter+%E2%80%A2+Kotlin+%E2%80%A2+Swift+%E2%80%A2+KMP;Creator+of+MVN+Architecture;Open-Source+Maintainer+%26+Tech+Writer" alt="Typing SVG">
   </a>
 </p>
 
@@ -24,12 +24,20 @@
 
 ## 👨‍💻 About Me
 
-Results-oriented Lead Mobile Engineer with **9+ years** architecting and shipping production-grade mobile apps. I care deeply about systems that are **scalable, maintainable, and a joy to work in** — and I share what I learn through open-source packages and technical writing.
+Results-oriented Lead Mobile Engineer with **10+ years** architecting and shipping production-grade mobile apps. I care deeply about systems that are **scalable, maintainable, and a joy to work in** — and I share what I learn through open-source packages and technical writing.
 
 - 🏛️ Creator of the **[MVN (Model-View-Notifier) Architecture](https://abdelrahman-abied.github.io/mvn-architecture-pattern/)** for Flutter + Riverpod
 - 📦 Author of **3 published Flutter packages** on pub.dev
 - ✍️ Writing about Mobile Architecture, Clean Code, and Flutter on **[Medium](https://medium.com/@abied.abiad)**
 - 💬 Ask me about: **Flutter architecture, state management, KMP, mobile system design**
+
+---
+
+## 🧭 What I Do
+
+- 📐 **Solution design:** turn business requests into build-ready specs, with user stories, acceptance criteria, API contracts, behaviour states and QA plans
+- 🔍 **Design & API review:** catch breaking changes, performance risks and missing requirements before development starts
+- 👥 **Technical leadership:** lead delivery teams, set engineering standards, and mentor engineers through ADRs, POCs and code reviews
 
 ---
 
@@ -41,9 +49,30 @@ Results-oriented Lead Mobile Engineer with **9+ years** architecting and shippin
 - 🤝 Open to consulting on **Flutter architecture audits** and **team mentoring**
 
 ---
+
 ## 🌟 Featured Projects
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/abdelrahman-abied/flutter-pro-skills">flutter-pro-skills</a></h3>
+      <p>21 Agent Skills that detect a Flutter app's architecture, then write and review its code by that pattern's own rules.</p>
+      <p>
+        <img src="https://img.shields.io/npm/v/flutter-pro-skills?style=flat-square&logo=npm&color=CB3837" alt="npm version">
+        <img src="https://img.shields.io/github/stars/abdelrahman-abied/flutter-pro-skills?style=flat-square&color=yellow" alt="stars">
+        <img src="https://img.shields.io/github/issues/abdelrahman-abied/flutter-pro-skills?style=flat-square&color=red" alt="issues">
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔎 <a href="https://github.com/abdelrahman-abied/flutter-intercept">Flutter Intercept</a></h3>
+      <p>Inspect, pause, edit, block and mock a Flutter app's HTTP traffic inside VS Code, Cursor or Android Studio, with no app code to change and no certificate to install.</p>
+      <p>
+        <img src="https://img.shields.io/badge/IDE-VS_Code_%C2%B7_Cursor_%C2%B7_Android_Studio-007ACC?style=flat-square" alt="Supports VS Code, Cursor and Android Studio">
+        <img src="https://img.shields.io/github/stars/abdelrahman-abied/flutter-intercept?style=flat-square&color=yellow" alt="stars">
+        <img src="https://img.shields.io/github/issues/abdelrahman-abied/flutter-intercept?style=flat-square&color=red" alt="issues">
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🎯 <a href="https://github.com/abdelrahman-abied/showcase_tutorial">showcase_tutorial</a></h3>
@@ -88,6 +117,17 @@ Results-oriented Lead Mobile Engineer with **9+ years** architecting and shippin
 
 ---
 
+## 🧰 Developer Tools
+
+| Tool | Type | Description |
+| :--- | :--- | :--- |
+| **[flutter-pro-skills](https://github.com/abdelrahman-abied/flutter-pro-skills)** | Agent Skills · [npm](https://www.npmjs.com/package/flutter-pro-skills) | Architecture-aware writing and review for Dart & Flutter. Install with `npx flutter-pro-skills` |
+| **[flutter-security-audit](https://github.com/abdelrahman-abied/flutter-security-audit)** | Agent Skill | Audits Flutter apps for security and privacy gaps, with a fix and an attack-based check for every finding |
+| **[Flutter Intercept](https://github.com/abdelrahman-abied/flutter-intercept)** | VS Code · Cursor · Android Studio | Inspect and mock a Flutter app's HTTP traffic |
+| **[Clean Architecture and MVN with Riverpod](https://github.com/abdelrahman-abied/vs-ext-clean-architecture-mvn-with-riverpod)** | VS Code · Cursor · Antigravity | Generates feature folders and starter files for MVN projects |
+
+---
+
 ## 📦 Open-Source Packages
 
 | Package | Version | Description |
@@ -124,10 +164,22 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 </p>
 
 **Architecture**
-`MVN` · `Clean Architecture` · `MVVM` · `MVI` · `MVP` · `VIPER`
+`MVN` · `Clean Architecture` · `MVVM` · `MVI` · `MVP` · `VIPER` · `Server-Driven UI / BFF`
 
 **State Management**
 `Riverpod` · `BLoC` · `Cubit` · `Provider` · `GetX` · `ViewModel`
+
+**Integration**
+`REST APIs` · `Payment Gateways` · `Bluetooth Low Energy` · `Access-Control Systems`
+
+**Security & Performance**
+`Certificate Pinning` · `Payload Encryption` · `App Hardening` · `Caching` · `Backward Compatibility`
+
+---
+
+## 🌍 Domains
+
+`Telecom` · `Fintech & Payments` · `Government` · `Access Control` · `Workforce Management` · `Logistics` · `E-commerce`
 
 ---
 
@@ -160,9 +212,14 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## 🏆 Highlights
 
 <p align="center">
-  <img src="https://img.shields.io/badge/9%2B_Years-Mobile_Engineering-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Experience">
+  <img src="https://img.shields.io/badge/10%2B_Years-Mobile_Engineering-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Experience">
   <img src="https://img.shields.io/badge/3-Published_Packages-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Packages">
   <img src="https://img.shields.io/badge/Creator-MVN_Architecture-0A66C2?style=for-the-badge&logo=readthedocs&logoColor=white" alt="MVN">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Led_Teams-6_to_16_Members-6F42C1?style=for-the-badge" alt="Led teams of 6 to 16 members">
+  <img src="https://img.shields.io/badge/npm-flutter--pro--skills-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="flutter-pro-skills on npm">
 </p>
 
 <p align="center">
@@ -185,25 +242,19 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
   <tr>
     <td align="center" width="33%">
       <h3>💼 Hire Me</h3>
-      <p>Available for consulting, architecture audits, and team mentoring</p>
+      <p>Open to new opportunities, consulting, architecture audits, and team mentoring</p>
       <a href="mailto:abied.abiad@gmail.com"><img src="https://img.shields.io/badge/Get_in_Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
     </td>
     <td align="center" width="33%">
       <h3>📦 Use My Packages</h3>
       <p>Three battle-tested Flutter packages on pub.dev</p>
-      <a href="https://pub.dev/publishers/abdelrahman-abied.dev/packages"><img src="https://img.shields.io/badge/View_Packages-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>
+      <a href="https://pub.dev/packages/showcase_tutorial"><img src="https://img.shields.io/badge/View_Packages-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>
     </td>
     <td align="center" width="33%">
       <h3>📖 Read My Work</h3>
       <p>Architecture, Clean Code, and Flutter deep-dives</p>
       <a href="https://medium.com/@abied.abiad"><img src="https://img.shields.io/badge/Follow_on_Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></a>
     </td>
-        <td align="center" width="33%">
-      <h3>📦 Use My Packages</h3>
-      <p>Three battle-tested Flutter packages on pub.dev</p>
-      <a href="https://pub.dev/packages/showcase_tutorial"><img src="https://img.shields.io/badge/View_Packages-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>
-    </td>
-
   </tr>
 </table>
 
