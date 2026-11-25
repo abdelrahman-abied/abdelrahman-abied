@@ -186,11 +186,11 @@ I created **MVN (Model–View–Notifier)** — a clean, scalable pattern purpos
 ## ✍️ Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Flutter Edge AI Part 2: TFLite INT8 Quantization, Make Your Model 3x Smaller](https://medium.com/@abied.abiad/flutter-edge-ai-part-2-tflite-int8-quantization-make-your-model-3x-smaller-17a027b4f32f?source=rss-bbc5a68595bd------2)
 - [Flutter Edge AI Part 1: What Edge AI Is and How to Run AI Models Offline](https://medium.com/@abied.abiad/flutter-edge-ai-part-1-what-edge-ai-is-and-how-to-run-ai-models-offline-d9d484751795?source=rss-bbc5a68595bd------2)
 - [What Is Legacy Code: The Definition Everyone Quotes Was Written for a World That No Longer Exists](https://medium.com/@abied.abiad/what-is-legacy-code-the-definition-everyone-quotes-was-written-for-a-world-that-no-longer-exists-7ef5738841c1?source=rss-bbc5a68595bd------2)
 - [Does Mobile Architecture Still Matter in the Age of AI?](https://medium.com/@abied.abiad/does-mobile-architecture-still-matter-in-the-age-of-ai-d6c0fdcb0372?source=rss-bbc5a68595bd------2)
 - [How to Write a Mobile Technical Design Doc: It Is a Decision Record, Not Documentation](https://medium.com/@abied.abiad/how-to-write-a-mobile-technical-design-doc-it-is-a-decision-record-not-documentation-390791b4cfd9?source=rss-bbc5a68595bd------2)
-- [How to Slice User Stories for Mobile Teams: The Vertical Slice Is a Backend Idea](https://medium.com/@abied.abiad/how-to-slice-user-stories-for-mobile-teams-the-vertical-slice-is-a-backend-idea-4321e43741db?source=rss-bbc5a68595bd------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ **[Read more on Medium](https://medium.com/@abied.abiad)**
